@@ -20,7 +20,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="mailto:sps.lynbrook@gmail.com"
-                style={{ color: "white" }}
+                style={{ color: "#519CC5" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -30,7 +30,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/lynbrooksps"
-                style={{ color: "white" }}
+                style={{ color: "#519CC5" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
