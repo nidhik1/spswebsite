@@ -321,3 +321,63 @@
     overflow: hidden !important;
     box-shadow: 0 0px 5px 5px #519CC5 !important;
   }
+
+  /* Resources */
+
+  .resource-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: 780px !important;
+  }
+
+  .resources-heading {
+    color: #519CC5 !important;
+    font-size: 100px !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+  }
+
+  .resources-section {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-color: #D1EBF5 !important;
+  }
+
+  .resource-card-view {
+    box-shadow: 0px 0px 3px 3px #77C3EC !important;
+    color: #D1EBF5 !important;
+    background-color: #519CC5 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+  }
+
+  .resource-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 0px 5px 5px #519CC5 !important;
+  }
+
+  .resources-slides-section {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-color: #D1EBF5 !important;
+  }
+
+  .slide-card {
+    padding-top: 50px !important;
+    padding-bottom: 5px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    height: 600px !important;
+  }
+
+  .slide-name {
+    color: #4789ac !important;
+    font-size: 30px !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+  }
