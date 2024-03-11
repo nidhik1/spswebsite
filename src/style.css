@@ -321,40 +321,6 @@
     box-shadow: 0 0px 5px 5px #519CC5 !important;
   }
 
-
-  /* Socials */
-  .socials-heading {
-    color: #519CC5 !important;
-    font-size: 100px !important;
-    font-weight: 500 !important;
-    padding-top: 10px !important;
-  }
-
-  .socials-section {
-    position: relative !important;
-    padding-top: 150px !important;
-    padding-bottom: 30px !important;
-    background-color: #D1EBF5 !important;
-  }
-
-  .socials-contact-title {
-    color: #519CC5 !important;
-    font-size: 100px !important;
-    font-weight: 500px !important;
-    padding-top: 10px !important;
-  }
-
-  .titleInfo-socials {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
-    position: relative !important;
-  }
-
-  .instagram-posts {
-    padding-right: 100px;
-    max-width: 100px;
-  }
-
   /* Resources */
   .resources-section {
     position: relative !important;
