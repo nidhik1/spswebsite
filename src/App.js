@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Socials from "./components/Socials/Socials";
+// import Socials from "./components/Socials/Socials";
 import Footer from "./components/Footer";
 
 import Projects from "./components/Resources/Resources";
@@ -38,7 +38,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Projects />} />
-          <Route path="/socials" element={<Socials />} />
+          {/* <Route path="/socials" element={<Socials />} /> */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

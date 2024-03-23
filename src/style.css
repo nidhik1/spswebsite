@@ -148,6 +148,23 @@
     text-align: left;
   }
 
+  .brodie {
+    display: grid;
+    gap: 40em; 
+    grid-template-columns: repeat(2, minmax(0, 1fr));;
+    width: 100%;
+  }
+
+  @media (max-width: 800px) {
+    .brodie {
+      display: flex; 
+      flex-direction: column;
+      gap: 10em;
+    }
+  }
+
+  
+
   .heading {
     font-size: 100px !important;
     padding-left: 50px !important;
@@ -155,9 +172,9 @@
   }
 
   .heading-name {
-    font-size: 100px !important;
+    font-size: 12vw !important;
     padding-left: 45px !important;
-    line-height: 100px;
+    line-height: 1.25em;
   }
 
   .brainImg {
@@ -177,7 +194,7 @@
   .home-about-section {
     position: relative;
     padding-bottom: 70px !important;
-    padding-top: 70px !important;
+    /* padding-top: 70px !important; */
   }
 
   .home-about-header {
